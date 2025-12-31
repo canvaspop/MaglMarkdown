@@ -1,10 +1,10 @@
 {
     "name": "maglnet/magl-markdown",
     "type": "library",
-    "description": "Provides a ZF2 View Helper to render markdown syntax. It uses third-party libraries for the rendering and you can switch between different renderers.",
+    "description": "Provides a Laminas View Helper to render markdown syntax. It uses third-party libraries for the rendering and you can switch between different renderers.",
     "homepage": "https://github.com/maglnet/MaglMarkdown",
     "license": "MIT",
-    "keywords": ["markdown", "zend framework", "zf2", "parsedown", "gfm", "github flavoured markdown"],
+    "keywords": ["markdown", "laminas", "parsedown", "gfm", "github flavoured markdown"],
     "support": {
         "source": "https://github.com/maglnet/MaglMarkdown",
         "issues": "https://github.com/maglnet/MaglMarkdown/issues"
@@ -33,7 +33,7 @@
         "laminas/laminas-cache": "^2.3 || ^3.0",
         "laminas/laminas-cache-storage-deprecated-factory": "^1.0",
         "laminas/laminas-cache-storage-adapter-memory": "^2.0",
-        "laminas/laminas-servicemanager": "^2.4 || ^3.1.1",
+        "laminas/laminas-servicemanager": "^2.4 || ^3.1.1 || ^4.0",
         "container-interop/container-interop": "^1.1"
     },
     "require-dev": {
