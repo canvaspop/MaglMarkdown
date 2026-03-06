@@ -30,7 +30,7 @@ class Markdown
      * @param MarkdownAdapterInterface   $markdownAdapter
      * @param EventManagerInterface|null $eventManager
      */
-    public function __construct(MarkdownAdapterInterface $markdownAdapter, EventManagerInterface $eventManager = null)
+    public function __construct(MarkdownAdapterInterface $markdownAdapter, ?EventManagerInterface $eventManager = null)
     {
         $this->markdownAdapter = $markdownAdapter;
         $this->eventManager = $eventManager;
